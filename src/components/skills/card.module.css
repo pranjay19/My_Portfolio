@@ -1,0 +1,59 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+
+} */
+
+
+
+.card{
+    
+    /* Position relative some bug on skills skill read some portion of progress is there */
+    /* position: relative;   */
+    top: -2.4rem;
+    width: auto;
+    height: auto;
+    box-shadow:  20px 20px 50px rgba(0, 0, 0, 0.5);
+
+    border-radius: 15px;
+
+    background: rgba(227, 225, 225, 0);
+
+    /* background: rgba(19, 157, 141, 0.725); */
+    display: flex;
+   
+   
+    align-items: flex-start;
+    /* border-top: 1px solid rgb(253, 248, 248);
+
+    border-left: 1px solid rgb(255, 255, 255); */
+
+    border: 1px solid rgba(255, 255, 255, 0.589); ;
+
+    backdrop-filter:blur(5px);
+
+padding-left: 1rem;
+padding:1rem 1rem 1rem 1rem ;
+margin: 2rem;  
+
+}
+
+.content{
+    flex: 1;
+    display: flex;
+
+   
+}
+
+
+
+/* .card:before {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  } */

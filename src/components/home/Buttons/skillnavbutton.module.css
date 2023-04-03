@@ -1,0 +1,40 @@
+
+
+.btn{
+    
+    font-family: 'Fuzzy Bubbles', cursive;
+    position: absolute;
+    background-color: white;
+    color: black;
+    box-shadow: 10px 10px 0px  rgb(208, 66, 97);
+    width: 15%;
+    height: 4rem;
+    top: 70%;
+    left: 17%;
+    font-size: 2rem;
+    animation: 1s slidein-left;
+    text-decoration: none;
+}
+
+
+.btn:hover{
+    text-decoration: none;
+    color: yellowgreen;
+    background-color: whitesmoke;
+    font-size: 3rem;
+    height: 5rem;
+    width: 21%;
+    box-shadow: 10px 10px 0px  yellowgreen;
+}
+
+@keyframes slidein-left {
+    0% {
+        
+        transform: translateX(-120%);
+    }
+   
+    100% {
+     
+        transform: translateX(0);
+    }
+}
